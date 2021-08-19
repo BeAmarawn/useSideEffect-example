@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.colorFrame {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+.colorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 400px;
+}
+
+.colorInfoSection {
+  display: flex;
+  font-size: calc(2px + 2vmin);
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Home-GetRandomColor {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #61dafb;
+  background-color: #000;
+  color: #61dafb;
+}
+
+.Home-GetRandomColor:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
